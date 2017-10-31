@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <vd-head></vd-head>
     <router-view></router-view>
   </div>
 </template>
@@ -17,12 +16,20 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.bv-example-row .row + .row {
+  margin-top: 1rem;
+}
+
+.bv-example-row .row > .col:not(.header),
+.bv-example-row .row > [class^=col-] {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+.bv-example-row-flex-cols .row {
+  min-height: 10rem;
+  background-color: rgba(255, 0, 0, .1);
 }
 </style>
