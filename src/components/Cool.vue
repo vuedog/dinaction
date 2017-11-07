@@ -12,7 +12,9 @@
 
 <script>
 
-import { bContainer, bRow, bCol } from 'bootstrap-vue/lib/components'
+import bContainer from 'bootstrap-vue/es/components/layout/container'
+import bRow from 'bootstrap-vue/es/components/layout/row'
+import bCol from 'bootstrap-vue/es/components/layout/col'
 
 export default {
   components: {
