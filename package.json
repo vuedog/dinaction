@@ -67,7 +67,7 @@
     "nightwatch": "^0.9.12",
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^2.0.0",
-    "ora": "^1.4.0",
+    "ora": "^5.0.0",
     "phantomjs-prebuilt": "^2.1.14",
     "popper.js": "^1.13.0",
     "rimraf": "^2.6.0",
