@@ -78,7 +78,7 @@
     "sinon-chai": "^3.5.0",
     "style-loader": "^0.23.1",
     "url-loader": "^0.6.2",
-    "vue-functional-data-merge": "^1.0.6",
+    "vue-functional-data-merge": "^3.1.0",
     "vue-loader": "^15.4.2",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.5.2",
